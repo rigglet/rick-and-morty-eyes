@@ -1,0 +1,43 @@
+* {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+body {
+    background-color: #5b431f;
+    overflow: hidden;
+}
+
+.image-container{
+    width: 100vw;
+    height: 100vh;
+}
+
+#main-image{
+    width: 100%;
+    height: 100%;
+    object-fit: scale-down;
+    position: relative;
+}
+
+.eyes img {
+    position: absolute;
+}
+#morty-left{
+    top: 400px;
+    left: 1000px;
+}
+#morty-right{
+    top: 390px;
+    left: 1070px;
+}
+#rick-left{
+    top: 110px;
+    left: 510px;
+}
+#rick-right{
+    top: 95px;
+    left: 610px;
+}
+
